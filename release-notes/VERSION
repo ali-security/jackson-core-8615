@@ -24,6 +24,8 @@ JSON library.
 #1516: `UTF8StreamJsonParser` sometimes may cause `ArrayIndexOutOfBoundsException`
  (reported by @haihai514)
  (fix by @cowtowncoder, w/ Claude code)
+#1553: Max Depth validation not working for `DataInput`-backed `JsonParser`s
+  in 3.0
 
 3.0.3 (28-Nov-2025)
 
